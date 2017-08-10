@@ -1,0 +1,787 @@
+
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/aleksandrac */
+@import "http://fonts.fontstorage.com/import/aleksandrac.css";
+/*
+    AleksandraC, 400
+*/
+
+*{
+    font-family: Arial, Geneva, Helvetica, Sans-serif;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #dce1e5;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Шапка*/
+
+
+.header_osnova{
+    background-color: #428bca;
+    color: aliceblue;
+}
+.header_osnova small{
+    color: #93ccff;
+}
+.header_osnova h1{
+    padding-left: 100px;
+}
+.header_osnova a{
+    color: aliceblue;
+    padding: 20px;
+
+}
+.header_osnova .log_exit h4:first-child:hover{
+    background-color: aliceblue;
+    color: #428bca;
+}
+.header_osnova a:hover{
+    color: #428bca;
+}
+.header_osnova h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+.header_osnova h3 a:hover{
+    color: aliceblue;
+}
+.header_osnova .log_exit h4{
+    float: right;
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+.header_osnova .log_exit h4:first-child{
+    float: right;
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid aliceblue;
+    
+}
+.header_osnova .log_exit{
+    margin-top: 20px;
+    padding-right: 100px;
+}
+
+/* КОНТЕНТ */
+
+.panel-primary {
+    padding: 0;
+    margin: 30px 0px 30px 0px;
+}
+.margin_block{
+    margin: 0 100px;
+}
+.panel-heading{
+    margin: 0;
+
+}
+.issue{
+   padding: 10px;
+   border-bottom: 1px solid #ebebeb;
+   min-height: 80px;
+}
+.issue h2{
+    width: 80%;
+    float: left;
+    margin: 5px;
+}
+.issue span{
+    float: right;
+    margin: 10px;
+}
+.issue p{
+    width: 80%;
+    height: 100px;
+    padding: 10px 0px 0px 10px;
+    height: 70px;
+    display: block;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 1px solid #cce5fd;
+}
+.pagination{
+    float: none;
+    margin: auto;
+
+}
+.pagin{
+    width: 100%;
+    text-align: center;
+    background-color: #428bca;
+}
+
+/* ПОДВАЛ */
+
+.footer_osnova{
+    background-color: #bebebe;
+    color: aliceblue;
+}
+.footer_osnova small{
+    color: #e0e0e0;
+}
+.footer_osnova h3{
+    padding-left: 100px;
+}
+.footer_osnova a{
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid aliceblue;
+}
+.footer_osnova a:hover{
+    background-color: aliceblue;
+    color: #bebebe;
+}
+.footer_osnova .log_exit h4{
+    float: right;
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.footer_osnova .log_exit{
+    margin-top: 10px;
+    padding-right: 100px;
+}
+
+
+/* СТРАНИЦА commercial*/
+.panel-heading a{
+    margin: 0px 10px;
+    color: aliceblue;
+    border-left: 2px solid aliceblue;
+    padding: 0px 0px 0px 25px;
+    font-size: 20px;
+}
+.panel-heading>.active{
+    border-left: 0;
+    padding: 7px 10px;
+
+    border-radius: 5px;
+    color: #428bca;
+    background-color: aliceblue;
+}
+.panel-heading a:first-child{
+    border-left: 0;
+}
+.textarea_commercial{
+    width: 100%;
+    height: 400px;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 100%;
+    border: 1px solid #428bca;
+    border-radius: 10px;
+    max-height: 800px;
+}
+.textarea_commercial:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+.panel-body input{
+    width: 200px;
+    height: 50px;
+    padding: 0px 0px;
+}
+.nav-tabs li{
+    height: 100%;
+    border: 0;
+}
+.nav-tabs .active a{
+    color: #428bca;
+    background-color: aliceblue;
+}
+.nav-tabs li a{
+
+}
+.nav-tabs li a:hover{
+    color: #000;
+    background-color: #fff;
+
+}
+.nav-tabs{
+    border: 0;
+    height: 52px;
+}
+.form-control{
+    width: 200px;
+    border: 1px solid #428bca;
+    margin-top: 20px;
+    height: 40px;
+    padding-top: 8px;
+    background-color: #428bca;
+    color: aliceblue;
+    font-size: 16px;
+    float: left;
+}
+.form-control:hover{
+    background-color: white;
+    color: #428bca;
+    border: 1px solid #428bca;
+}
+.panel-body button{
+    width: 200px;
+    border: 1px solid #428bca;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #428bca;
+    color: aliceblue;
+    font-size: 16px;
+    float: right;
+    text-align: center;
+}
+.panel-body button:hover{
+    background-color: white;
+    color: #428bca;
+    border: 1px solid #428bca;
+}
+.nav-tabs li a:focus{
+    background-color: white;
+    color: #000;
+}
+/* Страница issue */
+.panel-description{
+    min-height: 300px;
+    height: auto;
+}
+
+.comment_descriptions{
+    max-height: 200px;
+}
+.textarea_issue{
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 100%;
+    border: 1px solid #428bca;
+    border-radius: 10px;
+    max-height: 300px;
+}
+.textarea_issue:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.description_application p{
+    padding: 20px;
+    border: 1px solid #cce5fd;
+    border-radius: 10px;
+    min-height: 300px;
+    height: auto;
+    display: block;
+    text-align: justify;
+    font-size: 15px;
+    
+}
+.description_application{
+    height: 100%;
+    clear: both;
+}
+.issue i{
+    margin-right: 30px;
+    font-size: 16px;
+}
+.issue b{
+    font-size: 16px;
+}
+.comment_issue_user a h4{
+    width: 100px;
+    padding: 10px;
+    float: left;
+    border: 1px solid #428bca;
+    border-radius: 5px;
+    margin: 20px 30px 10px 15px;
+}
+.adresat,.status_form{
+ width: 200px;
+ padding: 10px 15px;
+ border-radius: 5px;
+ border: 1px solid #d9d9d9;
+ color: #2f2f2f;
+ font-size: 17px;
+ color:aliceblue;
+ background-color: #428bca;
+ margin-bottom: 25px;
+}
+
+.status_form{
+    float: right;
+}
+.border_issue_files>a>h4,.border_issue_files>a>span{
+    float: left;
+}
+.border-files_upd{
+    width: 100%;
+    display: block;
+    height: 50px;
+    padding: 5px 30px;
+    border: 1px solid #cce5fd;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.border-files_upd>a{
+    width: 80px;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+}
+.border-files_upd>a:first-child{
+    margin-right: 270px;
+
+}
+.border-files_upd:hover{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.border-files_upd>a>span{
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+.status_issue_user>.issue>.issue_header>a>span{
+    font-size: 20px;
+    line-height: 0px;
+    float: right;
+    margin: 8px 40px;
+}
+.status_issue_user>.issue span{
+    float: right;
+    margin: 25px 20px;
+    
+}
+.status_issue_user>.issue font{
+    float: left;
+    margin: 15px 0px 0px 0px;
+    font-size: 25px;
+}
+.visual-com span{
+    margin: 0px 7px;
+    font-size: 12px;
+    float: right;
+}
+.visual-com h4{
+   line-height: 40px;
+   margin: 0px 10px;
+   width: 350px;
+   font-size: 30px;
+}
+.visual-com{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    color: white;
+    margin: 5px 0;
+}
+.visual-com>a{
+    display: inline-block;
+    padding: 0 25px;
+    border-radius: 5px;
+    border: 2px solid;
+    float: right;
+    text-align: right;
+    margin: 0px 0;
+    line-height: 25px;
+    color: #5cb85c;
+    background-color: #fff;
+}
+.right_issue .panel-heading>a{
+    display: inline-block;
+    padding-right: 25px;
+    border-radius: 5px;
+    border: 2px solid;
+    float: right;
+    text-align: right;
+    margin: 0;
+    line-height: 30px;
+    color: #56bbfd;
+    background-color: #fff;
+}
+.right_issue .panel-heading>h3{
+    display: inline-block;
+    margin: 0;
+    line-height: 35px;
+}
+/* Страница ruk */
+.center_ruk{
+    margin-left: 55px;
+}
+.right_ruk{
+    margin-left: 55px;
+    padding: 0;
+}
+.block_info_ruk{
+    background-color: #428bca;
+    margin-bottom: 0px;
+}
+.block_info_ruk span{
+    width: auto;
+    display: block;
+    float: left;
+    padding: 15px;
+    margin: 10px 22px;
+    text-align: center;
+    font-size: 16px;
+    
+    border-radius: 5px;
+    background-color:aliceblue;
+    color: #428bca;
+}
+.info_issue {
+    display: inline-block;
+    color: #a2a4a5;
+    margin: 5px 0;
+    border: 1px solid #cce5fd;
+    padding: 10px;
+    border-radius: 4px;
+}
+.left_ruk .panel-heading>a{
+    display: inline-block;
+    padding-right: 25px;
+    border-radius: 5px;
+    border: 2px solid;
+    float: right;
+    text-align: right;
+    margin: 0;
+    line-height: 30px;
+    color: #56bbfd;
+    background-color: #fff;
+}
+.left_ruk .panel-heading>h2{
+    display: inline-block;
+    margin: 0;
+}
+/* Страница tech */
+.center_tech{
+    margin-left: 55px;
+}
+.right_tech{
+    margin-left: 55px;
+    padding: 0;
+}
+.right_tech .issue h2{
+    display: block;
+    float: none;
+}
+
+
+
+
+
+/*модалка*/
+#main-pop-up-box{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 41, 64, 0.53);
+    position: fixed;
+    top: 0px;
+}
+.main-pop-up-login{
+    margin: 170px auto;
+    display: table;
+    border-radius: 13px;
+    width: 550px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 9px 2px rgba(0,0,0,0.56);
+    background-color: #fff;
+    position: relative;
+    z-index: 20;    
+}
+.main-pop-up-login>.header_osnova{
+    margin: -20px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+}
+.form_modal input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #428bca
+}
+.form_modal button{
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: #428bca;
+    border: 0;
+    color: aliceblue;
+}
+.close-mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.panel-heading span{
+    float: right;
+}
+/* страница statick */
+
+.sortirovka-but,.sortirovka_form{
+    width: 20%!important;
+    height: auto!important;
+    padding: 5px!important;
+    margin: 0 2.5%;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    color: #2f2f2f;
+    font-size: 17px;
+    color: aliceblue;
+    background-color: #428bca;
+    margin-bottom: 0px;
+    padding:auto;
+}
+.sortirovka_form option{
+ text-align: center;
+}
+.panel-heading li:first-child{
+    border-left: 0px;
+}
+.panel-heading h4{
+   display: inline-block;
+   font-size: 13px;
+   margin: 0;
+}
+.panel-heading h4:first-child{
+    border-left: 0px;
+}
+.top-h4,.bot-h4{
+    float: none!important;
+    height: 15px;
+    line-height: 0px!important;
+    margin: 0px;
+    width: 0px;
+}
+.top-h4{
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    display: block;
+    padding-bottom: 20px;
+}
+.bot-h4>h4{
+    border-left: 2px solid #fff;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.bot-h4>h4:first-child{
+    border-left: 0px;
+}
+
+.panel-heading>ul{
+    list-style-type: none;
+}
+.panel-heading li{
+ font-size: 19px;
+ display: inline-block;
+ line-height: 20px;
+ padding: 15px 10px;
+ text-align: center;
+ height: 55px;
+ border-left: 2px solid #fff;
+}
+.table-static>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.li-two-jarus{
+    padding: 5px 0px!important;
+}
+.li-two-jarus>a:hover{
+    text-decoration: none;
+}
+.table-static{
+    padding:0;
+}
+
+.panel-title{
+    width: 100%;
+    margin-bottom: -5px!important;
+}
+.block-static{
+    padding: 0;
+}
+.zajava-block{
+    margin: 0;
+    padding: 0;
+}
+.zajava-block li{
+    font-size: 13px;
+    font-family: sans-serif;
+    line-height: 15px;
+}
+.a-title{
+    padding: 0!important;
+    margin: auto!important;
+}
+.sortirovka_form>.label-primary{
+    background-color: #ca42a0;
+}
+.border_issue_files>.label-primary{
+    background-color: #ca42a0;
+}
+.border_issue_files>.label{
+    display: block;
+    width: 100%;
+}
+.color-time-status>.label-primary{
+    background-color: #ca42a0;
+}
+.panel-collapse .border-files_upd{
+    width: 500px;
+}
+.panel-collapse .border-files_upd>a:first-child {
+    margin-right: 270px;
+}
+.panel-group .panel {
+    margin: 0 5px;
+}
+.panel-static{
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.panel-static-block{
+    margin-top: 30px;
+}
+.static-time-status{
+    text-align: center;
+    line-height: 50px;
+    border-left: 2px solid #fff;
+    padding-bottom: 5px;
+}
+.color-time-status{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 8px;
+}
+.color-time-status .label{
+    padding: 3px 18px;
+}
+.border_issue_files>.label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+.border_issue_files>h4{
+    display: inline-block;
+    width: 90%;
+    font-size: 13px;
+    margin-left: 10px;
+    line-height: 0;
+}
+.border_issue_files{
+    padding: 5px 15px;
+}
+.panel-collapse a h4{
+    width: 100px;
+    padding: 10px;
+    float: left;
+    border: 1px solid #428bca;
+    border-radius: 5px;
+    margin: 20px 30px 10px 15px;
+}
+.panel-collapse{
+    clear: both;
+}
+.panel-heading li a{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*страница commercial-proposal*/
+.komerch-head a{
+font-size: 25px;
+}
+.panel-description>i,.panel-description>b,.panel-description>span{
+    margin: 0px 0 10px 0;
+    font-family:AleksandraC;
+}
+.panel-description>span:nth-child(4){
+   text-align: right;
+
+}
+.panel-description>i{
+    text-align: right;
+}
+.panel-description>a{
+   float: left;
+   width: 200px;
+    border: 1px solid #428bca;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #428bca;
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
+}
+.panel-description>a:hover{
+    background-color: white;
+    color: #428bca;
+    border: 1px solid #428bca;
+    text-decoration: none;
+}
+.panel-description>a:focus{
+    text-decoration: none;
+}
+.history-predlog h3{
+    margin: 10px 10px 10px 10px;
+    border-bottom: 1px solid #428bca;
+    padding-bottom: 10px;
+    color: #428bca;
+}
+.history-predlog>b{
+    text-align: center;
+    color: #2b2b2b;
+    border-radius: 15px;
+    font-family: AleksandraC;
+    margin: 10px 0;
+    border: 1px solid #bebebe;
+}
+.otpravleno-user span{
+       text-align: center;
+    color: #6f6767;
+    border-radius: 10px;
+    margin: 3px 0;
+    border: 1px solid #e8e8e8;
+    font-family: AleksandraC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
